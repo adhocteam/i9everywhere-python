@@ -62,7 +62,7 @@ def add_customers(ctx, csv_file):
         customers.append(Customer(
             first_name=row['first_name'],
             last_name=row['last_name'],
-            email_address_primary=row['email_address_primary'],
+            email_address_primary=row['email'],
             hire_date=datetime.strptime(row['hire_date'], '%m/%d/%Y').date(),
             create_date=datetime.strptime(row['create_date'], '%m/%d/%Y').date(),
             company_id=row.get('company_id', ''),
