@@ -1,0 +1,7 @@
+*.pyc
+.direnv
+.envrc
+*.egg-info
+build
+dist
+*.pyc
